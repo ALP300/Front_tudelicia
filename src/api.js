@@ -3,7 +3,7 @@
  * Consumes the backend at http://localhost:3000/api
  */
 
-const DEFAULT_API_URL = 'https://eccomerce-javascript-2.onrender.com/api';
+const DEFAULT_API_URL = 'http://localhost:8080';
 const STORAGE_KEY = 'tudelicia_api_url';
 
 export function getApiBaseUrl() {
